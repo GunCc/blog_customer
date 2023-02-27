@@ -1,9 +1,7 @@
 <template>
-  <div>首页</div>
+  <div>页脚</div>
 </template>
 <script>
-export default {
-  layout:"empty"
-};
+export default {};
 </script>
 <style lang="scss"></style>
