@@ -31,7 +31,7 @@ body {
     color: #666;
     font-family: Microsoft YaHei, SimSun;
     background: #f6f6f6;
-    line-height: 2;
+    line-height: auto;
 }
 
 fieldset,
@@ -535,7 +535,7 @@ textarea {
     /* 1 */
     font-size: 100%;
     /* 1 */
-    line-height: 1.15;
+    line-height: auto;
     /* 1 */
     margin: 0;
     /* 2 */

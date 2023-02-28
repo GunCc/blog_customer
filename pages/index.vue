@@ -1,8 +1,24 @@
 <template>
-  <div class="index-wrap display-flex text-red-600">
-    <main>内容</main>
-    <aside class="index-aside">侧边栏</aside>
+  <div class="index-wrap flex">
+    <!-- 主要区域内容 -->
+    <section class="index-main">
+      <!-- 轮播 -->
+      <IndexMain />
+    </section>
+    <!-- 侧边栏内容 -->
+    <aside class="index-aside ml-8">
+      <AsideUserInfo />
+    </aside>
   </div>
 </template>
 <script lang="ts" setup></script>
-<style lang="scss"></style>
+<style lang="scss">
+.index-wrap {
+  .index-main {
+    flex: 1;
+  }
+  .index-aside {
+    width: 280px;
+  }
+}
+</style>
