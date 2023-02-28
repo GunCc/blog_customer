@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  css: [
+    '@/assets/styles/default.scss'
+  ],
   runtimeConfig: {
     // The private keys which are only available server-side
     apiSecret: '123',
@@ -7,8 +10,10 @@ export default defineNuxtConfig({
       apiBase: '/api'
     }
   },
+ 
   modules: [
-    '@element-plus/nuxt'
+    '@element-plus/nuxt',
+    'nuxt-windicss',
   ],
   elementPlus: { /** Options */ }
 })
