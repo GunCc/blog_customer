@@ -1,5 +1,8 @@
 <template>
-  <div>详情页3</div>
+  <div class="flex">
+    <EditorWrap class="flex-1" />
+    <EditorMenu />
+  </div>
 </template>
 <script>
 export default {};
