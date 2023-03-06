@@ -1,5 +1,5 @@
 <template>
-  <div class="article-item flex">
+  <nuxt-link to="/article/123" class="article-item flex">
     <el-image
       style="width: 156px; height: 104px"
       src="https://img-blog.csdnimg.cn/img_convert/bd512bb531b66fd0e7901f8861094ca2.jpeg?x-oss-process=image/format,png"
@@ -16,7 +16,7 @@
         日期：12312312312
       </div>
     </div>
-  </div>
+  </nuxt-link>
 </template>
 <script>
 export default {};

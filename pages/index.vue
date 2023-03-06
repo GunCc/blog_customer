@@ -8,6 +8,7 @@
     <!-- 侧边栏内容 -->
     <aside class="index-aside ml-8">
       <AsideUserInfo />
+      <AppAsideWrap />
     </aside>
   </div>
 </template>

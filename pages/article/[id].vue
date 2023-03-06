@@ -1,9 +1,7 @@
 <template>
-<div>
-33
-</div>
+  <div>详情页3</div>
 </template>
 <script>
 export default {};
 </script>
-<style lang='scss'></style>
+<style lang="scss"></style>

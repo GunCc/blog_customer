@@ -12,6 +12,11 @@
         <div class="aside-intro-ui-footer">Web开发工程师</div>
       </div>
     </div>
+    <div class="py-2 indent-md">个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯个人简介咯</div>
+    <LinkList />
+    <div class="flex ">
+      
+    </div>
   </div>
 </template>
 <script>
